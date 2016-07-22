@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29494401D40A6A3001F10D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F294943F1D40A6A3001F10D9 /* main.m */; };
+		F29494431D40A6A3001F10D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494421D40A6A3001F10D9 /* AppDelegate.m */; };
+		F29494461D40A6A3001F10D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494451D40A6A3001F10D9 /* ViewController.m */; };
+		F29494491D40A6A3001F10D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29494471D40A6A3001F10D9 /* Main.storyboard */; };
+		F294944B1D40A6A3001F10D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F294944A1D40A6A3001F10D9 /* Assets.xcassets */; };
+		F294944E1D40A6A3001F10D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F294944C1D40A6A3001F10D9 /* LaunchScreen.storyboard */; };
+		F29494591D40A6A3001F10D9 /* JPImagePainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494581D40A6A3001F10D9 /* JPImagePainterTests.m */; };
+		F29494641D40A6A3001F10D9 /* JPImagePainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494631D40A6A3001F10D9 /* JPImagePainterUITests.m */; };
+		F29494751D40ADF2001F10D9 /* JPImagePainter.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494741D40ADF2001F10D9 /* JPImagePainter.m */; };
+		F294947C1D40C781001F10D9 /* JPImagePainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494771D40C781001F10D9 /* JPImagePainterView.m */; };
+		F294947D1D40C781001F10D9 /* PainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F29494791D40C781001F10D9 /* PainterView.m */; };
+		F294947E1D40C781001F10D9 /* PainterZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F294947B1D40C781001F10D9 /* PainterZoomView.m */; };
+		F2A064361D41C02D0019BD51 /* doodle_brush@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A064321D41C02D0019BD51 /* doodle_brush@2x.png */; };
+		F2A064371D41C02D0019BD51 /* doodle_cancle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A064331D41C02D0019BD51 /* doodle_cancle@2x.png */; };
+		F2A064391D41C02D0019BD51 /* doodle_save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A064351D41C02D0019BD51 /* doodle_save@2x.png */; };
+		F2A0643B1D41C6C30019BD51 /* examplePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2A0643A1D41C6C30019BD51 /* examplePicture.jpg */; };
+		F2A0643F1D41E77A0019BD51 /* doodle_eraser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A0643E1D41E77A0019BD51 /* doodle_eraser@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29494551D40A6A3001F10D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29494331D40A6A3001F10D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F294943A1D40A6A3001F10D9;
+			remoteInfo = JPImagePainter;
+		};
+		F29494601D40A6A3001F10D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29494331D40A6A3001F10D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F294943A1D40A6A3001F10D9;
+			remoteInfo = JPImagePainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F294943B1D40A6A3001F10D9 /* JPImagePainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPImagePainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F294943F1D40A6A3001F10D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F29494411D40A6A3001F10D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F29494421D40A6A3001F10D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F29494441D40A6A3001F10D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F29494451D40A6A3001F10D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F29494481D40A6A3001F10D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F294944A1D40A6A3001F10D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F294944D1D40A6A3001F10D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F294944F1D40A6A3001F10D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29494541D40A6A3001F10D9 /* JPImagePainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPImagePainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29494581D40A6A3001F10D9 /* JPImagePainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPImagePainterTests.m; sourceTree = "<group>"; };
+		F294945A1D40A6A3001F10D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F294945F1D40A6A3001F10D9 /* JPImagePainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPImagePainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29494631D40A6A3001F10D9 /* JPImagePainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPImagePainterUITests.m; sourceTree = "<group>"; };
+		F29494651D40A6A3001F10D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29494731D40ADF2001F10D9 /* JPImagePainter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePainter.h; sourceTree = "<group>"; };
+		F29494741D40ADF2001F10D9 /* JPImagePainter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePainter.m; sourceTree = "<group>"; };
+		F29494761D40C781001F10D9 /* JPImagePainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPImagePainterView.h; sourceTree = "<group>"; };
+		F29494771D40C781001F10D9 /* JPImagePainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPImagePainterView.m; sourceTree = "<group>"; };
+		F29494781D40C781001F10D9 /* PainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterView.h; sourceTree = "<group>"; };
+		F29494791D40C781001F10D9 /* PainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterView.m; sourceTree = "<group>"; };
+		F294947A1D40C781001F10D9 /* PainterZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PainterZoomView.h; sourceTree = "<group>"; };
+		F294947B1D40C781001F10D9 /* PainterZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PainterZoomView.m; sourceTree = "<group>"; };
+		F2A064321D41C02D0019BD51 /* doodle_brush@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doodle_brush@2x.png"; sourceTree = "<group>"; };
+		F2A064331D41C02D0019BD51 /* doodle_cancle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doodle_cancle@2x.png"; sourceTree = "<group>"; };
+		F2A064351D41C02D0019BD51 /* doodle_save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doodle_save@2x.png"; sourceTree = "<group>"; };
+		F2A0643A1D41C6C30019BD51 /* examplePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = examplePicture.jpg; sourceTree = "<group>"; };
+		F2A0643E1D41E77A0019BD51 /* doodle_eraser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doodle_eraser@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29494381D40A6A3001F10D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29494511D40A6A3001F10D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F294945C1D40A6A3001F10D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29494321D40A6A3001F10D9 = {
+			isa = PBXGroup;
+			children = (
+				F294943D1D40A6A3001F10D9 /* JPImagePainter */,
+				F29494571D40A6A3001F10D9 /* JPImagePainterTests */,
+				F29494621D40A6A3001F10D9 /* JPImagePainterUITests */,
+				F294943C1D40A6A3001F10D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F294943C1D40A6A3001F10D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F294943B1D40A6A3001F10D9 /* JPImagePainter.app */,
+				F29494541D40A6A3001F10D9 /* JPImagePainterTests.xctest */,
+				F294945F1D40A6A3001F10D9 /* JPImagePainterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F294943D1D40A6A3001F10D9 /* JPImagePainter */ = {
+			isa = PBXGroup;
+			children = (
+				F29494721D40ABCC001F10D9 /* class */,
+				F29494411D40A6A3001F10D9 /* AppDelegate.h */,
+				F29494421D40A6A3001F10D9 /* AppDelegate.m */,
+				F2A0643A1D41C6C30019BD51 /* examplePicture.jpg */,
+				F29494441D40A6A3001F10D9 /* ViewController.h */,
+				F29494451D40A6A3001F10D9 /* ViewController.m */,
+				F29494471D40A6A3001F10D9 /* Main.storyboard */,
+				F294944A1D40A6A3001F10D9 /* Assets.xcassets */,
+				F294944C1D40A6A3001F10D9 /* LaunchScreen.storyboard */,
+				F294944F1D40A6A3001F10D9 /* Info.plist */,
+				F294943E1D40A6A3001F10D9 /* Supporting Files */,
+			);
+			path = JPImagePainter;
+			sourceTree = "<group>";
+		};
+		F294943E1D40A6A3001F10D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F294943F1D40A6A3001F10D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F29494571D40A6A3001F10D9 /* JPImagePainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F29494581D40A6A3001F10D9 /* JPImagePainterTests.m */,
+				F294945A1D40A6A3001F10D9 /* Info.plist */,
+			);
+			path = JPImagePainterTests;
+			sourceTree = "<group>";
+		};
+		F29494621D40A6A3001F10D9 /* JPImagePainterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F29494631D40A6A3001F10D9 /* JPImagePainterUITests.m */,
+				F29494651D40A6A3001F10D9 /* Info.plist */,
+			);
+			path = JPImagePainterUITests;
+			sourceTree = "<group>";
+		};
+		F29494721D40ABCC001F10D9 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				F2A064331D41C02D0019BD51 /* doodle_cancle@2x.png */,
+				F2A064351D41C02D0019BD51 /* doodle_save@2x.png */,
+				F2A064321D41C02D0019BD51 /* doodle_brush@2x.png */,
+				F2A0643E1D41E77A0019BD51 /* doodle_eraser@2x.png */,
+				F29494731D40ADF2001F10D9 /* JPImagePainter.h */,
+				F29494741D40ADF2001F10D9 /* JPImagePainter.m */,
+				F29494761D40C781001F10D9 /* JPImagePainterView.h */,
+				F29494771D40C781001F10D9 /* JPImagePainterView.m */,
+				F294947A1D40C781001F10D9 /* PainterZoomView.h */,
+				F294947B1D40C781001F10D9 /* PainterZoomView.m */,
+				F29494781D40C781001F10D9 /* PainterView.h */,
+				F29494791D40C781001F10D9 /* PainterView.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F294943A1D40A6A3001F10D9 /* JPImagePainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29494681D40A6A3001F10D9 /* Build configuration list for PBXNativeTarget "JPImagePainter" */;
+			buildPhases = (
+				F29494371D40A6A3001F10D9 /* Sources */,
+				F29494381D40A6A3001F10D9 /* Frameworks */,
+				F29494391D40A6A3001F10D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPImagePainter;
+			productName = JPImagePainter;
+			productReference = F294943B1D40A6A3001F10D9 /* JPImagePainter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F29494531D40A6A3001F10D9 /* JPImagePainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F294946B1D40A6A3001F10D9 /* Build configuration list for PBXNativeTarget "JPImagePainterTests" */;
+			buildPhases = (
+				F29494501D40A6A3001F10D9 /* Sources */,
+				F29494511D40A6A3001F10D9 /* Frameworks */,
+				F29494521D40A6A3001F10D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29494561D40A6A3001F10D9 /* PBXTargetDependency */,
+			);
+			name = JPImagePainterTests;
+			productName = JPImagePainterTests;
+			productReference = F29494541D40A6A3001F10D9 /* JPImagePainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F294945E1D40A6A3001F10D9 /* JPImagePainterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F294946E1D40A6A3001F10D9 /* Build configuration list for PBXNativeTarget "JPImagePainterUITests" */;
+			buildPhases = (
+				F294945B1D40A6A3001F10D9 /* Sources */,
+				F294945C1D40A6A3001F10D9 /* Frameworks */,
+				F294945D1D40A6A3001F10D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29494611D40A6A3001F10D9 /* PBXTargetDependency */,
+			);
+			name = JPImagePainterUITests;
+			productName = JPImagePainterUITests;
+			productReference = F294945F1D40A6A3001F10D9 /* JPImagePainterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29494331D40A6A3001F10D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JaryPan;
+				TargetAttributes = {
+					F294943A1D40A6A3001F10D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F29494531D40A6A3001F10D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F294943A1D40A6A3001F10D9;
+					};
+					F294945E1D40A6A3001F10D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F294943A1D40A6A3001F10D9;
+					};
+				};
+			};
+			buildConfigurationList = F29494361D40A6A3001F10D9 /* Build configuration list for PBXProject "JPImagePainter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29494321D40A6A3001F10D9;
+			productRefGroup = F294943C1D40A6A3001F10D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F294943A1D40A6A3001F10D9 /* JPImagePainter */,
+				F29494531D40A6A3001F10D9 /* JPImagePainterTests */,
+				F294945E1D40A6A3001F10D9 /* JPImagePainterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29494391D40A6A3001F10D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F294944E1D40A6A3001F10D9 /* LaunchScreen.storyboard in Resources */,
+				F2A0643F1D41E77A0019BD51 /* doodle_eraser@2x.png in Resources */,
+				F2A0643B1D41C6C30019BD51 /* examplePicture.jpg in Resources */,
+				F2A064361D41C02D0019BD51 /* doodle_brush@2x.png in Resources */,
+				F2A064391D41C02D0019BD51 /* doodle_save@2x.png in Resources */,
+				F2A064371D41C02D0019BD51 /* doodle_cancle@2x.png in Resources */,
+				F294944B1D40A6A3001F10D9 /* Assets.xcassets in Resources */,
+				F29494491D40A6A3001F10D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29494521D40A6A3001F10D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F294945D1D40A6A3001F10D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29494371D40A6A3001F10D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F294947D1D40C781001F10D9 /* PainterView.m in Sources */,
+				F29494461D40A6A3001F10D9 /* ViewController.m in Sources */,
+				F294947C1D40C781001F10D9 /* JPImagePainterView.m in Sources */,
+				F29494431D40A6A3001F10D9 /* AppDelegate.m in Sources */,
+				F29494401D40A6A3001F10D9 /* main.m in Sources */,
+				F294947E1D40C781001F10D9 /* PainterZoomView.m in Sources */,
+				F29494751D40ADF2001F10D9 /* JPImagePainter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29494501D40A6A3001F10D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29494591D40A6A3001F10D9 /* JPImagePainterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F294945B1D40A6A3001F10D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29494641D40A6A3001F10D9 /* JPImagePainterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29494561D40A6A3001F10D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F294943A1D40A6A3001F10D9 /* JPImagePainter */;
+			targetProxy = F29494551D40A6A3001F10D9 /* PBXContainerItemProxy */;
+		};
+		F29494611D40A6A3001F10D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F294943A1D40A6A3001F10D9 /* JPImagePainter */;
+			targetProxy = F29494601D40A6A3001F10D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29494471D40A6A3001F10D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29494481D40A6A3001F10D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F294944C1D40A6A3001F10D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F294944D1D40A6A3001F10D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29494661D40A6A3001F10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F29494671D40A6A3001F10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29494691D40A6A3001F10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPImagePainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPImagePainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F294946A1D40A6A3001F10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPImagePainter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPImagePainter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F294946C1D40A6A3001F10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPImagePainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPImagePainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPImagePainter.app/JPImagePainter";
+			};
+			name = Debug;
+		};
+		F294946D1D40A6A3001F10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JPImagePainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPImagePainterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPImagePainter.app/JPImagePainter";
+			};
+			name = Release;
+		};
+		F294946F1D40A6A3001F10D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPImagePainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPImagePainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPImagePainter;
+			};
+			name = Debug;
+		};
+		F29494701D40A6A3001F10D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JPImagePainterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JaryPan.JPImagePainterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JPImagePainter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29494361D40A6A3001F10D9 /* Build configuration list for PBXProject "JPImagePainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29494661D40A6A3001F10D9 /* Debug */,
+				F29494671D40A6A3001F10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29494681D40A6A3001F10D9 /* Build configuration list for PBXNativeTarget "JPImagePainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29494691D40A6A3001F10D9 /* Debug */,
+				F294946A1D40A6A3001F10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F294946B1D40A6A3001F10D9 /* Build configuration list for PBXNativeTarget "JPImagePainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F294946C1D40A6A3001F10D9 /* Debug */,
+				F294946D1D40A6A3001F10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F294946E1D40A6A3001F10D9 /* Build configuration list for PBXNativeTarget "JPImagePainterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F294946F1D40A6A3001F10D9 /* Debug */,
+				F29494701D40A6A3001F10D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29494331D40A6A3001F10D9 /* Project object */;
+}
