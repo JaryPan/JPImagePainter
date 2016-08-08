@@ -74,6 +74,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - 注销通知
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 /*
 #pragma mark - Navigation
 

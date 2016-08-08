@@ -333,4 +333,11 @@
 }
 
 
+#pragma mark - 注销通知
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+
 @end
